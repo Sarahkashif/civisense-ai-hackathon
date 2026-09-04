@@ -1,0 +1,23 @@
+.vercel
+.env
+.env.local
+.env.*
+!.env.example
+node_modules
+dist
+android/.gradle
+android/build
+android/app/build
+android/local.properties
+android/.idea
+*.log
+
+# Android release signing (keep private)
+android/keystore.properties
+android/civisense-release.keystore
+
+# Local build artifacts and temp files (not part of the source repository)
+.vercel-tmp/
+apk/
+tsconfig.tsbuildinfo
+supabase/.temp/

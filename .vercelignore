@@ -1,0 +1,19 @@
+# Android build artifacts (APK built locally, not needed on Vercel)
+android/
+
+# Temporary files
+.vercel-tmp/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Capacitor config (only needed for native builds)
+capacitor.config.ts
+
+# Scripts (icon generation etc - only for local dev)
+scripts/
